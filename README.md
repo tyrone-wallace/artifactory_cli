@@ -33,7 +33,13 @@ The **Artifactory CLI** is a command-line interface (CLI) tool designed to manag
    ```bash
    pip install https://trials5ruji.jfrog.io/artifactory/tyrone-rt-cli-repo/artifactory_cli-0.0.1.tar.gz
    ```
-
+2. **Login Credentials: User and Password**:
+   ```bash
+   test-user
+   ```
+   ```bash
+   Compuzign@2025
+   ```
 2. **Verify Installation**:
    ```bash
    artifactory-cli --help
@@ -48,7 +54,10 @@ To start using the CLI, login with your Artifactory credentials:
 ```bash
 artifactory-cli
 ```
-You will be prompted to enter your username and password. A token will be generated for subsequent API interactions.
+You will be prompted to enter your username and password. A token will be generated for subsequent API interactions. Credentials are the same as before.
+
+#### Username: test-user
+#### Password: Compuzign@2025
 
 ### Main Menu
 The main menu provides the following options:
@@ -96,7 +105,7 @@ artifactory_cli/
 ### Setup for Local Development
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/tyrone-wallace/artifactory_cli.git
    cd artifactory_cli
    ```
 
@@ -119,7 +128,7 @@ The Artifactory base URL is stored in the controls.py file for now:
 BASE_URL=https://trials5ruji.jfrog.io
 ```
 
-To user for other another Artifactory instance, just change base url.
+To use for other Artifactory instances, just change base url.
 
 ---
 
@@ -132,10 +141,27 @@ If you would like to contribute:
 ---
 
 ## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the MIT License. See the `LICENSE` [] file for details.
 
 ---
 
 ## Support
 If you encounter issues or have questions, please reach out to the project maintainer or submit an issue in the repository.
+
+---
+
+## Documentation
+For Detailed [Documentation](https://docs.google.com/document/d/1JhrpNvyB0zQUghvPggoEK0k8kSwsyp2dTsjLwB-sl1U/edit?usp=sharing).
+
+---
+
+## Sources
+### [JFrog API](https://jfrog.com/help/r/jfrog-rest-apis/artifactory-rest-apis)
+
+### [InquirerPy](https://inquirerpy.readthedocs.io/en/latest/)
+
+### [Python CLI](https://docs.python.org/3/using/cmdline.html)
+
+
+
 

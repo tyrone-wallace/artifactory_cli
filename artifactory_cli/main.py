@@ -1,7 +1,7 @@
 import os
 import time
 from InquirerPy import inquirer
-from views import *
+from artifactory_cli.views import *
 import argparse
 
 

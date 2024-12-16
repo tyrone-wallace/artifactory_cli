@@ -1,6 +1,6 @@
-from controls import *
+from artifactory_cli.controls import *
 from InquirerPy import prompt
-from utils_list import PACKAGE_TYPES, REPO_TYPE
+from artifactory_cli.utils_list import PACKAGE_TYPES, REPO_TYPE
 
 def system_ping_view():
     try:
