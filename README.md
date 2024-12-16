@@ -106,7 +106,6 @@ artifactory_cli/
 1. Clone the repository:
    ```bash
    git clone https://github.com/tyrone-wallace/artifactory_cli.git
-   cd artifactory_cli
    ```
 
 2. Install dependencies:
@@ -141,7 +140,7 @@ If you would like to contribute:
 ---
 
 ## License
-This project is licensed under the MIT License. See the `LICENSE` [] file for details.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ---
 
@@ -161,7 +160,3 @@ For Detailed [Documentation](https://docs.google.com/document/d/1JhrpNvyB0zQUghv
 ### [InquirerPy](https://inquirerpy.readthedocs.io/en/latest/)
 
 ### [Python CLI](https://docs.python.org/3/using/cmdline.html)
-
-
-
-
