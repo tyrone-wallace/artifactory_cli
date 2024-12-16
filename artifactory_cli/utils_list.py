@@ -1,0 +1,41 @@
+
+PACKAGE_TYPES = [
+    "generic",
+    "alpine",
+    "cargo",
+    "composer",
+    "bower",
+    "chef",
+    "cocoapods",
+    "conan",
+    "conda",
+    "cran",
+    "debian",
+    "docker",
+    "helm",
+    "helmoci",
+    "huggingfaceml",
+    "gems",
+    "gitlfs",
+    "go",
+    "gradle",
+    "ivy",
+    "maven",
+    "npm",
+    "nuget",
+    "oci",
+    "opkg",
+    "pub",
+    "puppet",
+    "pypi",
+    "rpm",
+    "sbt",
+    "swift",
+    "terraform",
+    "terraformbackend",
+    "vagrant",
+    "yum"
+]
+
+
+REPO_TYPE = ["local", "remote", "virtual"]
