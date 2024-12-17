@@ -26,7 +26,6 @@ The **Artifactory CLI** is a command-line interface (CLI) tool designed to manag
 
 ### Prerequisites
 - Python 3.10 or higher
-- An Artifactory SaaS instance
 
 ### Installation Steps
 1. **Install via Artifactory**:
@@ -41,8 +40,16 @@ The **Artifactory CLI** is a command-line interface (CLI) tool designed to manag
    Compuzign@2025
    ```
 2. **Verify Installation**:
+
+- View Menu Options and Description
    ```bash
    artifactory-cli --help
+   ```
+   OR
+   
+- View files in artifactory-cli package
+   ```bash
+   pip show -f artifactory-cli
    ```
 
 ---
@@ -106,6 +113,7 @@ artifactory_cli/
 1. Clone the repository:
    ```bash
    git clone https://github.com/tyrone-wallace/artifactory_cli.git
+   cd artifactory_cli
    ```
 
 2. Install dependencies:

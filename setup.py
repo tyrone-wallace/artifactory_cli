@@ -8,8 +8,7 @@ setup(
     packages=find_packages(include=["artifactory_cli", "artifactory_cli.*"]),
     install_requires=[
         "requests",
-        "InquirerPy",
-        "python-dotenv"
+        "InquirerPy"
     ],
     entry_points={
         'console_scripts': [
